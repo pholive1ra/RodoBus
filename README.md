@@ -1,47 +1,47 @@
-# 🚌 RodoBus
+# Grambol
 
-Plataforma de passagens rodoviárias com busca de rotas, ofertas e programa de fidelidade.
-
----
-
-## 🖥️ Tecnologias
-
-- [React](https://react.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Material UI (MUI)](https://mui.com/)
-- [Vite](https://vitejs.dev/)
+A bus ticketing platform with route search, deals, and a loyalty program.
 
 ---
 
-## 🚀 Como rodar o projeto
+## 🖥️ Tech Stack
 
-### Pré-requisitos
+* [React](https://react.dev/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Material UI (MUI)](https://mui.com/)
+* [Vite](https://vitejs.dev/)
 
-- Node.js >= 18
-- npm ou yarn
+---
 
-### Instalação
+## 🚀 Running the Project
+
+### Prerequisites
+
+* Node.js >= 18
+* npm or yarn
+
+### Installation
 
 ```bash
-# Clone o repositório
-git clone https://github.com/pholive1ra/RodoBus.git
+# Clone the repository
+git clone https://github.com/pholive1ra/Grambol.git
 
-# Entre na pasta
-cd RodoBus
+# Go to the project folder
+cd Grambol
 
-# Instale as dependências
+# Install dependencies
 npm install
 ```
 
-### Rodando em desenvolvimento
+### Development mode
 
 ```bash
 npm run dev
 ```
 
-Acesse [http://localhost:5173](http://localhost:5173) no navegador.
+Access http://localhost:5173 in your browser.
 
-### Build para produção
+### Production build
 
 ```bash
 npm run build
@@ -49,10 +49,10 @@ npm run build
 
 ---
 
-## 📁 Estrutura do projeto
+## 📁 Project Structure
 
 ```
-RodoBus/
+Grambol/
 ├── public/
 ├── src/
 │   ├── assets/
@@ -68,26 +68,26 @@ RodoBus/
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Features
 
-- [x] Hero com busca de passagens
-- [ ] Listagem de destinos
-- [ ] Página de ofertas
-- [ ] Carrinho e checkout
-- [ ] Autenticação de usuário
-- [ ] Programa de fidelidade
-
----
-
-## 🤝 Contribuindo
-
-1. Crie uma branch: `git checkout -b feat/sua-feature`
-2. Faça suas alterações e commit: `git commit -m "feat: descrição da feature"`
-3. Suba a branch: `git push origin feat/sua-feature`
-4. Abra um Pull Request
+* [x] Hero section with ticket search
+* [ ] Destination listing
+* [ ] Deals page
+* [ ] Cart and checkout
+* [ ] User authentication
+* [ ] Loyalty program
 
 ---
 
-## 📄 Licença
+## 🤝 Contributing
 
-Este projeto está sob a licença MIT.
+1. Create a branch: `git checkout -b feat/your-feature`
+2. Commit your changes: `git commit -m "feat: feature description"`
+3. Push the branch: `git push origin feat/your-feature`
+4. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
